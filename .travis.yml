@@ -11,4 +11,5 @@ before_script:
   - npm install
   - npm link
 after_success:
+  - grunt clean
   - npm run coveralls
