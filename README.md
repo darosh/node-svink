@@ -11,10 +11,10 @@ SVG Inkscape multi-rasterizer.
 
 ### Install
 
-- For commandline usage install the module with: `npm install -g svink`
-- For API usage: `npm install svink`
+- For commandline usage: `npm install -g svink`
+- For API: `npm install svink`
 
-### Commandline Usage
+## Commandline Usage
 
 ```
 Usage:
@@ -50,7 +50,7 @@ Examples:
   svink -d -a -S 48 -i *.svg -o {index}-{file}-{id}.png
 ```
 
-### API Usage
+## API Usage
 
 ```javascript
  var opt = {
@@ -80,6 +80,9 @@ Examples:
  // or without callback
  svink(options);
  ```
+
+## Examples
+More examples: [test/commands](https://github.com/darosh/node-svink/tree/master/test/commands) and [test/commands-query](https://github.com/darosh/node-svink/tree/master/test/commands-query).
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
