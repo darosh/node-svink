@@ -1,4 +1,4 @@
-![](https://github.com/darosh/node-svink/raw/master/res/svink-logo.svg)
+![](https://rawgithub.com/darosh/node-svink/master/res/svink-logo.svg)
 
 # node-svink [![Build Status](https://secure.travis-ci.org/darosh/node-svink.png?branch=master)](http://travis-ci.org/darosh/node-svink)
 SVG Inkscape multi-rasterizer.
