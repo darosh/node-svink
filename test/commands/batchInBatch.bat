@@ -1,0 +1,1 @@
+svink -d -i ../samples/circle.svg -p ../output/batchInBatch -c ../samples/graphics-inherit.json

@@ -1,0 +1,1 @@
+svink -d -i ../samples/stars.svg -p ../output/yml -c ../samples/graphics.yml

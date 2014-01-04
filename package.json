@@ -1,0 +1,60 @@
+{
+  "name": "svink",
+  "description": "SVG Inkscape multi-rasterizer.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jan Forst",
+    "email": "ensonador@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darosh/node-svink.git"
+  },
+  "bugs": {
+    "url": "https://github.com/darosh/node-svink/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/darosh/node-svink/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/svink",
+  "bin": {
+    "svink": "./bin/svink"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "colors": "~0.6.2",
+    "debug": "~0.7.4",
+    "glob": "~3.2.7",
+    "js-yaml": "~3.0.1",
+    "optimist": "~0.6.0",
+    "underscore": "~1.5.2",
+    "wrench": "~1.5.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-yuidoc": "~0.5.0",
+    "grunt-exec": "~0.4.3",
+    "istanbul": "~0.2.3",
+    "coveralls": "~2.6.1"
+  },
+  "keywords": [
+    "svg",
+    "png",
+    "icons",
+    "sprites",
+    "inkscape"
+  ]
+}

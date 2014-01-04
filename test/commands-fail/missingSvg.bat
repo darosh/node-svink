@@ -1,0 +1,1 @@
+svink -d -i ../samples/missing.svg -p ../output

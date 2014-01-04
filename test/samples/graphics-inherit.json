@@ -1,0 +1,21 @@
+{
+    "batch": [
+        {
+            "output": "color-none.png",
+            "size": 64
+        },
+        {
+            "batch": [
+                {
+                    "output": "color-white.png",
+                    "background": "#ffffff"
+                },
+                {
+                    "output": "color-red.png",
+                    "background": "#ff0000"
+                }
+            ]
+
+        }
+    ]
+}

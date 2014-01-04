@@ -1,0 +1,90 @@
+usage: svink [options]
+
+examples:
+  - svink -i graphics.svg -o rasterized.png
+  - svink -d -a -S 48 -i *.svg -o {index}-{file}-{id}.png
+
+placeholders:
+  index: number of rendered file
+  file: input file name
+  id: SVG element id
+
+options:
+
+  i:
+    alias: input
+    description: input SVG file
+    default: graphics.svg
+
+  o:
+    alias: output
+    description: output PNG file
+    default: graphics.png
+
+  p:
+    alias: output-path
+    description: output path
+    default: build
+
+  c:
+    alias: config
+    description: config file
+    default: graphics.json
+
+  s:
+    alias: id
+    description: select id
+
+  f:
+    alias: filter
+    description: filter regex
+
+  a:
+    alias: all
+    description: select all
+
+  W:
+    alias: width
+    description: render width in pixels
+
+  H:
+    alias: height
+    description: render height in pixels
+
+  S:
+    alias: size
+    description: render rectangle in pixels
+
+  D:
+    alias: dpi
+    description: export dpi
+
+  C:
+    alias: scale
+    description: export scale
+
+  B:
+      alias: background
+      description: export background color
+
+  l:
+      alias: log
+      description: path to log
+
+  n:
+      alias: no-render
+      boolean: true
+      description: disable render
+
+  ?:
+    alias: help
+    boolean: true
+    description: show help
+
+  probe:
+    boolean: true
+    description: probe Inkscape version
+
+  d:
+    alias: debug
+    description: show debug messages

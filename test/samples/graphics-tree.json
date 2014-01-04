@@ -1,0 +1,31 @@
+{
+    "batch": [
+        {
+            "output": "hi-res_icon.png",
+            "size": 512,
+            "id": "id_icon"
+        },
+        {
+            "id": "id_icon",
+            "batch": [
+                {
+                    "output": "res/drawable-hdpi/ic_launcher.png",
+                    "size": 72
+                },
+                {
+                    "output": "res/drawable-xhdpi/ic_launcher.png",
+                    "size": 96
+                },
+                {
+                    "output": "res/drawable-xxhdpi/ic_launcher.png",
+                    "size": 144
+                },
+                {
+                    "output": "res/drawable-xxxhdpi/ic_launcher.png",
+                    "size": 192
+                }
+            ]
+
+        }
+    ]
+}

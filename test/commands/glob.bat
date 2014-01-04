@@ -1,0 +1,1 @@
+svink -d -i ../samples/s*.svg -p ../output/glob -o {file}.png

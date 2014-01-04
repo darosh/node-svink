@@ -1,0 +1,1 @@
+svink -d -i ../samples/invalid/invalid.svg -p ../output

@@ -1,0 +1,71 @@
+{
+    "batch": [
+        {
+            "output": "feature_graphics.png",
+            "width": 1024,
+            "height": 500,
+            "id": "feature",
+            "description": "Google Play, Game Service, Feature Graphic, JPG or 24-bit PNG (no alpha)"
+        },
+        {
+            "output": "hi-res_icon.png",
+            "size": 512,
+            "id": "icon",
+            "description": "Google Play, Game Service, Web Icon, 32-bit PNG (with alpha)"
+        },
+        {
+            "output": "res/drawable-mdpi/ic_launcher.png",
+            "size": 48,
+            "id": "icon",
+            "description": "Android App Launcher Icon, MDPI, 1×, ~160 DPI"
+        },
+        {
+            "output": "res/drawable-hdpi/ic_launcher.png",
+            "size": 72,
+            "id": "icon",
+            "description": "Android App Launcher Icon, HDPI, 1×, ~240 DPI"
+        },
+        {
+            "output": "res/drawable-xhdpi/ic_launcher.png",
+            "size": 96,
+            "id": "icon",
+            "description": "Android App Launcher Icon, XHDPI, 1×, ~320 DPI"
+        },
+        {
+            "output": "res/drawable-xxhdpi/ic_launcher.png",
+            "size": 144,
+            "id": "icon",
+            "description": "Android App Launcher Icon, XXHDPI, 1×, ~480 DPI"
+        },
+        {
+            "output": "res/drawable-xxxhdpi/ic_launcher.png",
+            "size": 192,
+            "id": "icon",
+            "description": "Android App Launcher Icon, XXXHDPI, 1×, ~640 DPI"
+        },
+        {
+            "output": "leaderboard_multi_easy.png",
+            "size": 512,
+            "id": "leaderboard_multi_easy",
+            "description": "Google Play, Game Service, Leaderboard Icon"
+        },
+        {
+            "output": "leaderboard_multi_hard.png",
+            "size": 512,
+            "id": "leaderboard_multi_hard",
+            "description": "Google Play, Game Service, Leaderboard Icon"
+        },
+        {
+            "output": "leaderboard_single_easy.png",
+            "size": 512,
+            "id": "leaderboard_single_easy",
+            "description": "Google Play, Game Service, Leaderboard Icon"
+        },
+        {
+            "output": "leaderboard_single_hard.png",
+            "size": 512,
+            "id": "leaderboard_single_hard",
+            "description": "Google Play, Game Service, Leaderboard Icon"
+        }
+    ]
+}

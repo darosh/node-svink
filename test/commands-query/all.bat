@@ -1,0 +1,1 @@
+svink -d -a -i ../samples/stars.svg -p ../output/all

@@ -1,0 +1,1 @@
+svink -d -f rect.* -i ../samples/shapes.svg -p ../output/filter -o {id}.png

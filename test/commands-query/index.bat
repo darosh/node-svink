@@ -1,0 +1,1 @@
+svink -d -f "(rect)|(circle).*" -i ../samples/*.svg -p ../output/index -o {index}-{file}-{id}.png

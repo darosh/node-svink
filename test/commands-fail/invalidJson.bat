@@ -1,0 +1,1 @@
+svink -i ../samples/circle.svg -c ../samples/invalid/invalid.json

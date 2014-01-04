@@ -1,0 +1,1 @@
+svink -d -i ../samples/circle.svg -p ../output/simple
