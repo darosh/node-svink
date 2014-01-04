@@ -1,1 +1,0 @@
-svink -d -i ../samples/circle.svg -p ../output --paths invalid

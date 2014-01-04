@@ -37,3 +37,21 @@ exports.testOsWin32 = function (test) {
         test.done();
     });
 };
+
+exports.testOsWin32InvalidPaths = function (test) {
+    var os = require('os');
+    var original = os.platform;
+    os.platform = function () {
+        return 'win32';
+    };
+    var svink = require('../lib/svink').svink;
+    svink({
+        input: '../samples/circle.svg',
+        'output-path': '../output/osWin32InvalidPaths',
+        'paths': 'invalid'
+    }, function () {
+        os.platform = original;
+        test.ok(true);
+        test.done();
+    });
+};
