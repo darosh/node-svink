@@ -28,7 +28,8 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "coveralls": "istanbul cover node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/bin/nodeunit --report lcovonly -- test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "dependencies": {
     "async": "~0.2.9",

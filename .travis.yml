@@ -10,3 +10,5 @@ before_script:
   - npm install -g grunt-cli
   - npm install
   - npm link
+after_success:
+  - npm coveralls
