@@ -25,9 +25,10 @@ exports.testNoCallback = function (test) {
     test.expect(1);
     
     var svink = require('../lib/svink').svink;
+    process.chdir(__dirname);
     svink({
-        input: '../samples/circle.svg',
-        'output-path': '../output/noCallBack',
+        input: './samples/circle.svg',
+        'output-path': './output/noCallBack',
         'no-render': true
     });
     setTimeout(function(){

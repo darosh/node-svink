@@ -28,9 +28,10 @@ exports.testOsLinux = function (test) {
         return 'linux';
     };
     var svink = require('../lib/svink').svink;
+    process.chdir(__dirname);
     svink({
-        input: '../samples/circle.svg',
-        'output-path': '../output/osLinux'
+        input: './samples/circle.svg',
+        'output-path': './output/osLinux'
     }, function () {
         os.platform = original;
         test.ok(true);
