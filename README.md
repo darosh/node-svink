@@ -90,3 +90,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## License
 Copyright (c) 2014 Jan Forst  
 Licensed under the MIT license.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/darosh/node-svink/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
