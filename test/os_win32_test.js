@@ -55,3 +55,24 @@ exports.testOsWin32InvalidPaths = function (test) {
         test.done();
     });
 };
+
+exports.testOsWin32MockLinuxPaths = function (test) {
+    var os = require('os');
+    var original = os.platform;
+    var tmp = process.env.Path;
+    process.env.Path = '../dummy';
+    os.platform = function () {
+        return 'win32';
+    };
+    var svink = require('../lib/svink').svink;
+    svink({
+        input: '../samples/circle.svg',
+        'output-path': '../output/osWin32InvalidPaths',
+        'paths': 'invalid'
+    }, function () {
+        os.platform = original;
+        process.env.Path = tmp;
+        test.ok(true);
+        test.done();
+    });
+};
