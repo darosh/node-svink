@@ -1,7 +1,8 @@
-# node-svink [![Build Status](https://secure.travis-ci.org/darosh/node-svink.png?branch=master)](http://travis-ci.org/darosh/node-svink) [![Coverage Status](https://coveralls.io/repos/darosh/node-svink/badge.png)](https://coveralls.io/r/darosh/node-svink) [![Dependency Status](https://gemnasium.com/darosh/node-svink.png)](https://gemnasium.com/darosh/node-svink) [![NPM version](https://badge.fury.io/js/svink.png)](http://badge.fury.io/js/svink)
-SVG Inkscape multi-rasterizer.
+# node-svink ![](https://rawgithub.com/darosh/node-svink/master/res/svink-logo-small.svg) 
 
-![](https://rawgithub.com/darosh/node-svink/master/res/svink-logo-small.svg)
+[![Build Status](https://secure.travis-ci.org/darosh/node-svink.png?branch=master)](http://travis-ci.org/darosh/node-svink) [![Coverage Status](https://coveralls.io/repos/darosh/node-svink/badge.png)](https://coveralls.io/r/darosh/node-svink) [![Dependency Status](https://gemnasium.com/darosh/node-svink.png)](https://gemnasium.com/darosh/node-svink) [![NPM version](https://badge.fury.io/js/svink.png)](http://badge.fury.io/js/svink) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+SVG Inkscape multi-rasterizer.
 
 ## Getting Started
 
